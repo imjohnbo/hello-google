@@ -4,6 +4,7 @@ PROJECT=${1}
 
 # https://cloud.google.com/endpoints/docs/openapi/enable-api
 EMAIL=$(gcloud iam service-accounts create ${PROJECT}-${RANDOM} \
+    --project ${PROJECT} \
     --description "Hello, Google!" \
     --display-name "Hello Google" \
     --format="value(email)")
