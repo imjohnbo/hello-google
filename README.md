@@ -5,9 +5,9 @@
 ## Usage
 
 1. Set up a new Google Cloud project: `gcloud projects create PROJECT_ID`
-1. Run dependency and setup scripts:
+2. Run dependency and setup scripts:
 ```bash
 npm i
 script/setup.sh PROJECT_ID
 ```
-1. Follow [`serverless/serverless`](https://github.com/serverless/serverless) documentation like the [Quick Start](https://github.com/serverless/serverless/#quick-start)
+3. Follow [`serverless/serverless`](https://github.com/serverless/serverless) documentation like the [Quick Start](https://github.com/serverless/serverless/#quick-start)
