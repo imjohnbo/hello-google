@@ -2,7 +2,7 @@
 
 # https://serverless.com/framework/docs/providers/google/guide/credentials/
 
-PROJECT=MYPROJECTHERE
+PROJECT=${1}
 
 # Enable APIs
 ./api.sh "${PROJECT}"
